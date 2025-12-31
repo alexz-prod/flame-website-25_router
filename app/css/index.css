@@ -1,0 +1,172 @@
+@import 'tailwindcss';
+@import './fonts.css';
+
+@theme {
+  --font-sans: Albra Grotesk, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-display: 'Nutty Noisses', serif;
+
+  --breakpoint-xs: 27rem;
+  --breakpoint-2xl: 98rem;
+
+  --text-statement: 1.75rem;
+  --text-statement--line-height: 1.25em;
+
+  --color-*: initial;
+  --color-pray: #ff4c3d;
+  --color-pray_hover: #ff614e;
+  --color-pray_active: #e64435;
+  --color-pure: #faf9f7;
+  --color-day: #fcfbe1;
+  --color-olive: #524f41;
+
+  --color-incense-900: #0f1317;
+  --color-incense-500: #717578;
+
+  --spacing-content: clamp(16px, 5vw, 64px);
+  --spacing-section: 4rem;
+
+  --animate-breathe: breathe 5s infinite;
+  --animate-breathe_delayed: breathe 5s 0.5s infinite;
+}
+
+:root {
+  @apply text-incense-900 bg-pure; /* TODO: scroll-smooth */
+  interpolate-size: allow-keywords;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@utility content {
+  /* TODO: max-w-7xl? */
+  @apply px-content mx-auto max-w-7xl;
+}
+
+.clickable {
+  @apply cursor-pointer transition-all;
+}
+.clickable:active {
+  @apply transition-none;
+}
+
+/* TODO: btn states */
+@utility btn {
+  @apply bg-pray text-pure inline-block cursor-pointer px-7 py-4 text-center text-base font-black tracking-wider uppercase transition-all;
+
+  &:hover {
+    @apply bg-pray_hover;
+  }
+
+  &:active {
+    @apply bg-pray_active transition-none;
+  }
+}
+
+@utility btn_secondary {
+  @apply text-pray inset-ring-4;
+  background: none;
+
+  &:hover {
+    @apply bg-current/10;
+  }
+
+  &:active {
+    @apply bg-current/30 transition-none;
+  }
+}
+
+@utility h2 {
+  @apply text-5xl font-black tracking-wide uppercase;
+}
+
+@utility h3 {
+  @apply text-3xl font-black tracking-wide uppercase;
+}
+
+@utility h4 {
+  @apply text-xl leading-tight font-black tracking-wider uppercase;
+}
+
+@utility h5 {
+  @apply text-sm font-black tracking-wide uppercase;
+}
+
+@utility with-border-top {
+  &:before {
+    content: '';
+    width: 200%;
+    @apply bg-pray absolute top-0 left-0 block h-1;
+  }
+}
+
+/* -- JS toggle classes -- */
+.nav_visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav_visible nav {
+  --tw-translate-y: 0;
+}
+
+.overlay {
+  @apply invisible scale-98 opacity-0 transition-all;
+}
+
+.overlay_visible {
+  @apply visible scale-100 opacity-100;
+}
+
+.inline-overlay {
+  @apply invisible origin-top-left scale-98 opacity-0 transition-all;
+}
+.inline-overlay_right {
+  @apply origin-top-right;
+}
+.inline-overlay_visible {
+  @apply visible scale-100 opacity-100;
+}
+
+/* -- :ROOT MEDIA-QUERIES */
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 18px;
+    --spacing-section: 6rem;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+@media (width >= 1280px) {
+  :root {
+    font-size: 22px;
+  }
+}
+
+@media (width >= 1440px) {
+  :root {
+    font-size: 24px;
+  }
+}
+
+/* -- KEYFRAMES -- */
+
+@keyframes breathe {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.02);
+  }
+  44%,
+  100% {
+    transform: scale(1);
+  }
+}
