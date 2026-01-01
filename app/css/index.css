@@ -40,7 +40,6 @@ body {
 }
 
 @utility content {
-  /* TODO: max-w-7xl? */
   @apply px-content mx-auto max-w-7xl;
 }
 
@@ -51,9 +50,8 @@ body {
   @apply transition-none;
 }
 
-/* TODO: btn states */
 @utility btn {
-  @apply bg-pray text-pure inline-block cursor-pointer px-7 py-4 text-center text-base font-black tracking-wider uppercase transition-all;
+  @apply bg-pray text-pure flex cursor-pointer justify-center px-7 py-4 text-center text-base font-black tracking-wider uppercase transition-all;
 
   &:hover {
     @apply bg-pray_hover;

@@ -7,13 +7,19 @@ export default function () {
         per Mail oder fordere direkt die Bewerbungsunterlagen an!
       </p>
       <div className="mx-auto mt-8 flex max-w-lg flex-col gap-2">
-        <a className="btn" href="#">
+        <a
+          className="btn"
+          href="mailto:flameacademy@gebetshaus.org?subject=Bewerbung FlameAcademy&body=Hallo Flame-Team,%0D%0A%0D%0A✓ Bitte sendet mir die Bewerbungsunterlagen zu.%0D%0A✓ Ich habe noch eine Frage:"
+        >
           Bewerbungsunterlagen anfordern
         </a>
         <a className="btn btn_secondary" href="#">
           Schreib uns bei WhatsApp
         </a>
-        <a className="btn btn_secondary" href="#">
+        <a
+          className="btn btn_secondary"
+          href="mailto:flameacademy@gebetshaus.org"
+        >
           Mail an flameacademy@gebetshaus.org
         </a>
       </div>
