@@ -1,3 +1,6 @@
+import { Img } from '~/components/Img';
+import { INDEX_IMG_DATA } from '~/data/images';
+
 export default function () {
   return (
     <section className="py-section bg-day">
@@ -6,9 +9,9 @@ export default function () {
         <div className="gap-content mt-8 grid grid-cols-2 md:mt-16 lg:grid-cols-3">
           {/* <!-- img hartl --> */}
           <div className="relative -col-start-1 -col-end-2 row-start-1 sm:row-end-3">
-            <img
+            <Img
+              img={INDEX_IMG_DATA.hartlTeaching}
               className="h-full w-full object-cover"
-              src="img/wireframe-img.svg"
             />
           </div>
           {/* <!-- gebetsraum --> */}

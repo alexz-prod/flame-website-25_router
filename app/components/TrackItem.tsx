@@ -1,6 +1,7 @@
 import { useState, type ComponentProps, type FC } from 'react';
 import { cx } from '~/domain/utils/cx';
 import type { TrackItemDto } from '~/sections/Tracks';
+import { Img } from './Img';
 
 interface Props extends ComponentProps<'div'> {
   item: TrackItemDto;
@@ -21,7 +22,7 @@ export const TrackItem: FC<Props> = ({ item, reversed, ...props }) => {
         )}
         onClick={() => setIsOpen(true)}
       >
-        <img className="aspect-square w-full" src={item.img} />
+        <Img img={item.img} className="aspect-square w-full" />
         <h3 className="h3 absolute bottom-4 w-full px-6 select-none">
           {item.name}
         </h3>
@@ -59,7 +60,7 @@ export const TrackItem: FC<Props> = ({ item, reversed, ...props }) => {
             className="relative block max-w-xs cursor-pointer text-left md:min-w-xs"
             onClick={() => setIsOpen(false)}
           >
-            <img className="aspect-square w-full" src={item.img} />
+            <Img className="aspect-square w-full" img={item.img} />
             <h3 className="h3 absolute bottom-4 w-full px-6">{item.name}</h3>
           </button>
           <div>

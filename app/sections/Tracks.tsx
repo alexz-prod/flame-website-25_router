@@ -1,6 +1,8 @@
 import { type ReactNode } from 'react';
 import { TrackItem } from '~/components/TrackItem';
+import { INDEX_IMG_DATA } from '~/data/images';
 import { cx } from '~/domain/utils/cx';
+import type { ImgDto } from '~/types/ImgDto';
 
 export default function () {
   return (
@@ -32,7 +34,7 @@ export default function () {
 const TRACK_DATA: TrackItemDto[] = [
   {
     name: 'Lobpreis-Track',
-    img: '/img/wireframe-img.svg',
+    img: INDEX_IMG_DATA.wireframe, // TODO: lp-track img
     content: (
       <>
         <p className="mt-4 md:mt-0">
@@ -64,7 +66,7 @@ const TRACK_DATA: TrackItemDto[] = [
   },
   {
     name: 'Gebetsleiter-Track',
-    img: '/img/wireframe-img.svg',
+    img: INDEX_IMG_DATA.jonathPraying,
     content: (
       <>
         <p className="mt-4">
@@ -100,7 +102,7 @@ const TRACK_DATA: TrackItemDto[] = [
 ];
 
 export interface TrackItemDto {
-  img: string;
+  img: ImgDto;
   name: string;
   content: ReactNode;
 }

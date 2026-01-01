@@ -2,6 +2,7 @@ import { useState, type FC } from 'react';
 import { cx } from '~/domain/utils/cx';
 import type { TeamItemDto } from '~/sections/Team';
 import { CloseBtn } from './CloseBtn';
+import { Img } from './Img';
 
 type Props = {
   member: TeamItemDto;
@@ -13,10 +14,9 @@ export const TeamCardItem: FC<Props> = ({ member }) => {
   return (
     <div>
       <div className="w-full text-left">
-        <img
-          src={member.img.src}
+        <Img
+          img={member.img}
           className="w-full cursor-pointer object-cover"
-          alt={member.img.alt}
           onClick={() => setIsOpen(true)}
         />
         <h3 className="h4 mt-4">{member.name}</h3>
@@ -40,10 +40,9 @@ export const TeamCardItem: FC<Props> = ({ member }) => {
         )}
       >
         <CloseBtn onClick={() => setIsOpen(false)} />
-        <img
-          src={member.img.src}
+        <Img
+          img={member.img}
           className="aspect-square w-full max-w-80 object-cover"
-          alt={member.img.alt}
         />
 
         <div>

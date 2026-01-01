@@ -1,5 +1,6 @@
 import { TeamCardItem } from '~/components/TeamItem';
-import type { Img } from '~/types/Img';
+import { INDEX_IMG_DATA } from '~/data/images';
+import type { ImgDto } from '~/types/ImgDto';
 
 export default function () {
   return (
@@ -21,10 +22,7 @@ export default function () {
 
 export const TEAM_DATA: TeamItemDto[] = [
   {
-    img: {
-      src: '/img/wireframe-img.svg',
-      alt: 'TODO:',
-    },
+    img: INDEX_IMG_DATA.wireframe,
     name: 'Conny Bühler',
     position: 'Schulleitung',
     bio: `Conny ist unsere FlameAcademy-Mama. Allerdings eine solche, die dich nicht nur ermutigt und bestärkt, sondern auch herausfordert und zum passenden Zeitpunkt liebevoll-bestimmt aus dem gemütlichen Nest schubst.
@@ -43,7 +41,7 @@ TEAM_DATA.push({ ...TEAM_DATA[0] });
 TEAM_DATA[1].name = 'Silas Rink';
 
 export type TeamItemDto = {
-  img: Img;
+  img: ImgDto;
   name: string;
   position: string;
   bio: string;

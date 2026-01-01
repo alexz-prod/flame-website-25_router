@@ -1,3 +1,6 @@
+import { Img } from '~/components/Img';
+import { INDEX_IMG_DATA } from '~/data/images';
+
 export default function () {
   return (
     <section>
@@ -15,10 +18,10 @@ export default function () {
             Angst vor Verletzlichkeit haben und persönlich wachsen wollen.
           </p>
         </li>
-        {/* <!-- get-real img --> */}
+        {/* <!-- go-deep img --> */}
         <li className="bg-olive sm:bg-day xs:pb-12 relative min-h-80 sm:p-0">
-          <img
-            src="/img/wireframe-img.svg"
+          <Img
+            img={INDEX_IMG_DATA.hannesPraying}
             className="mx-auto aspect-square w-full max-w-sm sm:absolute sm:inset-0 sm:h-full sm:max-w-none sm:object-cover xl:relative 2xl:max-h-100"
           />
         </li>
@@ -32,11 +35,11 @@ export default function () {
             800 h Gebetsraum wirst du deinem Gott begegnen wie niemals zuvor.
           </p>
         </li>
-        {/* <!-- go-deep img --> */}
+        {/* <!-- get-real img --> */}
         <li className="bg-day sm:bg-olive flex items-center pb-12 sm:pt-2 xl:order-1">
           <figure className="relative mx-auto w-full max-w-xs sm:mx-12">
-            <img
-              src="/img/wireframe-img.svg"
+            <Img
+              img={INDEX_IMG_DATA.orangeJacketGirl}
               className="aspect-square w-full"
             />
             <p className="font-display text-pray sm:text-pure absolute -top-10 -right-8 text-6xl">
