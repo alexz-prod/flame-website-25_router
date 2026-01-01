@@ -20,7 +20,7 @@ export const TeamCardItem: FC<Props> = ({ member }) => {
           onClick={() => setIsOpen(true)}
         />
         <h3 className="h4 mt-4">{member.name}</h3>
-        <p className="mt-2">{member.position}</p>
+        <p className="mt-1 text-sm">{member.position}</p>
       </div>
 
       {/* overlay */}
