@@ -13,9 +13,9 @@ export default function () {
         >
           Bewerbungsunterlagen anfordern
         </a>
-        <a className="btn btn_secondary" href="#">
+        {/* <a className="btn btn_secondary" href="#">
           Schreib uns bei WhatsApp
-        </a>
+        </a> */}
         <a
           className="btn btn_secondary"
           href="mailto:flameacademy@gebetshaus.org"

@@ -63,9 +63,9 @@ export default function () {
         </li>
         {/* <!-- get-dangerous img --> */}
         <li className="xs:pb-12 relative min-h-80 sm:order-2 sm:p-0">
-          <img
-            src="/img/wireframe-img.svg"
-            className="mx-auto aspect-square w-full max-w-sm sm:absolute sm:inset-0 sm:h-full sm:max-w-none sm:object-cover xl:relative 2xl:max-h-110"
+          <Img
+            img={INDEX_IMG_DATA.ghStructure3}
+            className="bg-incense-900 mx-auto aspect-square w-full max-w-sm sm:absolute sm:inset-0 sm:h-full sm:max-w-none sm:object-cover xl:relative 2xl:max-h-110"
           />
         </li>
       </ul>

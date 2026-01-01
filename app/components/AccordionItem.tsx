@@ -17,7 +17,7 @@ export const AccordionItem: FC<Props> = ({ item, isOpen, onClick }) => {
     <li className="border-pray border-b-2">
       <button
         type="button"
-        className="flex w-full cursor-pointer items-center justify-between py-2 select-none"
+        className="flex w-full cursor-pointer items-center justify-between py-2 text-left select-none"
         onClick={onClick}
       >
         <span className="text-lg font-semibold tracking-wide">
@@ -37,7 +37,9 @@ export const AccordionItem: FC<Props> = ({ item, isOpen, onClick }) => {
           'h-auto': isOpen,
         })}
       >
-        <p className="pb-2">{item.content}</p>
+        <p className="text-incense-900 pb-2 leading-relaxed whitespace-pre-line">
+          {item.content}
+        </p>
       </div>
     </li>
   );
