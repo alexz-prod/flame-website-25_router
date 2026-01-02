@@ -4,9 +4,7 @@ import { INDEX_IMG_DATA } from '~/data/images';
 export default function () {
   return (
     <section id="schuljahr" className="py-section content">
-      <h2 className="h2 text-pray lg:md-1/3 sm:max-w-2/3 md:w-1/2 xl:w-1/4">
-        Dein Schuljahr auf einen Blick
-      </h2>
+      <h2 className="h2 text-pray max-w-sm">Dein Schuljahr auf einen Blick</h2>
 
       <Img
         img={INDEX_IMG_DATA.triangleGraphic}
