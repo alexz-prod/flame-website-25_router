@@ -20,7 +20,7 @@ export default function () {
         </a> */}
           <a
             className="btn btn_secondary"
-            href="mailto:flameacademy@gebetshaus.org"
+            href="mailto:flameacademy@gebetshaus.org?subject=Frage zur FlameAcademy"
           >
             Mail an flameacademy@gebetshaus.org
           </a>

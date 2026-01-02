@@ -15,16 +15,26 @@ export default function () {
             href="https://www.instagram.com/flameacademy_gebetshausschule/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Zur FlameAcademy Instagram-Page"
           >
-            <img src="/icon/simple-icons_instagram.svg" className="w-5" />
+            <img
+              src="/icon/simple-icons_instagram.svg"
+              className="w-5"
+              alt="Instagram icon"
+            />
           </a>
           <a
             className="clickable hover:bg-pure/10 active:bg-pure/30 rounded-full p-3"
             href="https://www.youtube.com/user/prayertube"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Zum Gebetshaus-Youtube-Kanal"
           >
-            <img src="/icon/simple-icons_youtube.svg" className="w-5" />
+            <img
+              src="/icon/simple-icons_youtube.svg"
+              className="w-5"
+              alt="Youtube icon"
+            />
           </a>
         </div>
         <div className="mt-12 flex w-full justify-end gap-4">
