@@ -95,7 +95,7 @@ body {
   &:before {
     content: '';
     width: 200%;
-    @apply bg-pray absolute top-0 left-0 block h-1;
+    @apply bg-incense-900 absolute top-0 left-0 block h-1;
   }
 }
 
