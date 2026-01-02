@@ -11,12 +11,16 @@ export default function () {
           <a
             className="clickable hover:bg-pure/10 active:bg-pure/30 rounded-full p-3"
             href="https://www.instagram.com/flameacademy_gebetshausschule/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="/icon/simple-icons_instagram.svg" className="w-5" />
           </a>
           <a
             className="clickable hover:bg-pure/10 active:bg-pure/30 rounded-full p-3"
             href="https://www.youtube.com/user/prayertube"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="/icon/simple-icons_youtube.svg" className="w-5" />
           </a>

@@ -1,3 +1,9 @@
+import type { Route } from './+types/impressum';
+
+export function meta({}: Route.MetaArgs) {
+  return [{ title: 'Impressum – FlameAcademy' }];
+}
+
 export default function () {
   return (
     <main className="content my-16 max-w-2xl">

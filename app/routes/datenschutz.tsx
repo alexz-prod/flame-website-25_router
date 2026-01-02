@@ -1,3 +1,9 @@
+import type { Route } from './+types/datenschutz';
+
+export function meta({}: Route.MetaArgs) {
+  return [{ title: 'Datenschutz – FlameAcademy' }];
+}
+
 export default function () {
   return (
     <main className="content my-16 max-w-2xl">
