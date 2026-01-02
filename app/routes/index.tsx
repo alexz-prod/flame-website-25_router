@@ -17,8 +17,6 @@ import YearOverview from '~/sections/YearOverview';
 export default function Home() {
   return (
     <>
-      <PageNav />
-
       <Hero />
       <Manifest />
       <Values />

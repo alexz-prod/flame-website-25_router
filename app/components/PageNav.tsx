@@ -68,51 +68,51 @@ export const PageNav: FC = () => {
 const NAV_DATA: NavDto[] = [
   {
     label: 'Start',
-    href: '#top',
+    href: '/#top',
   },
   {
     label: 'Manifest',
-    href: '#manifest',
+    href: '/#manifest',
   },
   {
     label: 'Unsere Werte',
-    href: '#werte',
+    href: '/#werte',
   },
   {
     label: 'Der Gebetsraum',
-    href: '#gebetsraum',
+    href: '/#gebetsraum',
   },
   {
     label: 'Dein Schuljahr',
-    href: '#schuljahr',
+    href: '/#schuljahr',
   },
   {
     label: 'Tracks',
-    href: '#tracks',
+    href: '/#tracks',
   },
   {
     label: 'So könnte deine Woche aussehen',
-    href: '#wochenplan',
+    href: '/#wochenplan',
   },
   {
     label: 'Werde Teil des Gebetshaus',
-    href: '#gebetshaus',
+    href: '/#gebetshaus',
   },
   {
     label: 'Facts',
-    href: '#facts',
+    href: '/#facts',
   },
   {
     label: 'FAQ',
-    href: '#faq',
+    href: '/#faq',
   },
   {
     label: 'Team',
-    href: '#team',
+    href: '/#team',
   },
   {
     label: 'Stimmen von Absolventen',
-    href: '#testimonials',
+    href: '/#testimonials',
   },
 ];
 

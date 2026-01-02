@@ -10,6 +10,7 @@ import {
 import type { Route } from './+types/root';
 import './css/index.css';
 import Footer from './sections/Footer';
+import { PageNav } from './components/PageNav';
 
 export const links: Route.LinksFunction = () => [];
 
@@ -33,6 +34,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <a id="top" />
         {children}
         <Footer />
+        <PageNav />
 
         <ScrollRestoration />
         <Scripts />
