@@ -10,12 +10,12 @@ export const TestimonialNavBadge: FC<Props> = ({ testimonial }) => {
   return (
     <a
       href={'#' + testimonial.slug}
-      className="group clickable flex items-center p-1 font-semibold transition-colors hover:bg-current/5 active:bg-current/10"
+      className="clickable transition-transform hover:scale-110 active:scale-98"
     >
-      <Img className="aspect-square w-8" img={testimonial.author.img} />
-      <div className="max-w-0 overflow-hidden text-ellipsis whitespace-nowrap transition-all group-hover:max-w-40">
-        <span className="mx-2">{testimonial.author.name}</span>
-      </div>
+      <Img
+        className="aspect-square w-8 rounded-full"
+        img={testimonial.author.img}
+      />
     </a>
   );
 };
