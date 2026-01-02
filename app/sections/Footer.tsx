@@ -1,19 +1,33 @@
+import { Link } from 'react-router';
+
 export default function () {
   return (
-    <footer className="pt-section bg-incense-900 text-pure pb-6">
-      <div className="content flex flex-col items-center gap-4">
-        <img src="/img/wireframe-img.svg" className="max-w-xs object-cover" />
-        <div className="flex gap-4">
-          <img src="/img/wireframe-img.svg" className="w-8 object-cover" />
-          <img src="/img/wireframe-img.svg" className="w-8 object-cover" />
+    <footer className="bg-incense-900 text-pure pt-12 pb-8">
+      <div className="content flex flex-col items-center">
+        <Link to="/#top">
+          <img src="/logo/logo_word-pray.svg" className="max-w-xs" />
+        </Link>
+        <div className="flex gap-2">
+          <a
+            className="clickable hover:bg-pure/10 active:bg-pure/30 rounded-full p-3"
+            href="https://www.instagram.com/flameacademy_gebetshausschule/"
+          >
+            <img src="/icon/simple-icons_instagram.svg" className="w-5" />
+          </a>
+          <a
+            className="clickable hover:bg-pure/10 active:bg-pure/30 rounded-full p-3"
+            href="https://www.youtube.com/user/prayertube"
+          >
+            <img src="/icon/simple-icons_youtube.svg" className="w-5" />
+          </a>
         </div>
-        <div className="mt-6 flex w-full justify-end gap-4">
-          <a className="hover:underline" href="#">
+        <div className="mt-12 flex w-full justify-end gap-4">
+          <Link className="mr-auto hover:underline sm:mr-0" to="impressum">
             Impressum
-          </a>
-          <a className="hover:underline" href="#">
+          </Link>
+          <Link className="hover:underline" to="datenschutz">
             Datenschutz
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
