@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <section className="py-section bg-pray text-day">
+    <section id="manifest" className="py-section bg-pray text-day">
       <div className="content max-w-4xl">
         {/* <!-- TODO: bg --> */}
         <ol className="text-statement mx-auto space-y-16 font-black tracking-wider uppercase xl:max-w-3/4">

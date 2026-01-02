@@ -3,7 +3,7 @@ import { INDEX_IMG_DATA } from '~/data/images';
 
 export default function () {
   return (
-    <section>
+    <section id="werte">
       <div className="py-section bg-incense-900 sm:py-16 sm:text-center">
         <h2 className="h2 text-pure content">Unsere Werte</h2>
       </div>

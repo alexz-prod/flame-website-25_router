@@ -9,7 +9,7 @@ export default function () {
   };
 
   return (
-    <section className="text-pray py-section">
+    <section id="faq" className="text-pray py-section">
       <div className="content gap-content grid grid-cols-1 md:grid-cols-3">
         <h2 className="h2">FAQ</h2>
         <ul className="js--accordion col-span-2 max-w-2xl">

@@ -3,7 +3,10 @@ import { INDEX_IMG_DATA } from '~/data/images';
 
 export default function () {
   return (
-    <section className="py-section text-day bg-incense-900 lg:flex">
+    <section
+      id="gebetsraum"
+      className="py-section text-day bg-incense-900 lg:flex"
+    >
       <div className="min-w-[60%]">
         <div className="content flex justify-end">
           <h2 className="h2 relative z-10 md:max-w-md lg:-mr-88">

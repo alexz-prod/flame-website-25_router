@@ -6,7 +6,7 @@ import type { ImgDto } from '~/types/ImgDto';
 
 export default function () {
   return (
-    <section className="py-section bg-pray text-day">
+    <section id="tracks" className="py-section bg-pray text-day">
       <div className="content">
         <div className="max-w-2xl">
           <h2 className="h2">Tracks — Werde trainiert in Lobpreis & Gebet</h2>

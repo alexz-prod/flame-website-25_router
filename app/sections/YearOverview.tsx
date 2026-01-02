@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <section className="py-section content">
+    <section id="schuljahr" className="py-section content">
       <h2 className="h2 text-pray lg:md-1/3 sm:max-w-2/3 md:w-1/2 xl:w-1/4">
         Dein Schuljahr auf einen Blick
       </h2>

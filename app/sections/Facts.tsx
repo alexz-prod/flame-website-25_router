@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <section className="py-section text-day bg-incense-900">
+    <section id="facts" className="py-section text-day bg-incense-900">
       <div className="content">
         <h2 className="h2">Facts</h2>
         <div className="mt-12 grid gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">

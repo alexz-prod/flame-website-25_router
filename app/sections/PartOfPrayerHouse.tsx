@@ -3,7 +3,7 @@ import { INDEX_IMG_DATA } from '~/data/images';
 
 export default function () {
   return (
-    <section className="py-section bg-olive text-day">
+    <section id="gebetshaus" className="py-section bg-olive text-day">
       <div className="content">
         <h2 className="h2 md:max-w-[80%] lg:max-w-2/3 xl:max-w-[45%]">
           Werde Teil des Gebetshaus

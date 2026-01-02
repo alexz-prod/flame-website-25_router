@@ -10,7 +10,7 @@ export default function () {
   const [overlayOpen, setOverlayOpen] = useState(false);
 
   return (
-    <section className="py-section bg-pray text-pure">
+    <section id="testimonials" className="py-section bg-pray text-pure">
       <div className="content">
         <h2 className="h2 text-day max-w-md">Stimmen von Absol&shy;venten</h2>
 

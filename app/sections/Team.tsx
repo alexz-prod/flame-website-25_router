@@ -4,7 +4,7 @@ import type { ImgDto } from '~/types/ImgDto';
 
 export default function () {
   return (
-    <section className="pt-section bg-day pb-12">
+    <section id="team" className="pt-section bg-day pb-12">
       <div className="content">
         <h2 className="h2 text-olive">Das Team</h2>
         <div className="gap-content mt-8 grid grid-cols-2 md:mt-12 lg:grid-cols-3">

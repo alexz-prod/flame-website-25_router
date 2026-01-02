@@ -3,7 +3,7 @@ import { INDEX_IMG_DATA } from '~/data/images';
 
 export default function () {
   return (
-    <section className="pt-section">
+    <section id="wochenplan" className="pt-section">
       <div className="content">
         <h3 className="h2">
           So könnte deine Woche (in der Abend&shy;schicht) aussehen:

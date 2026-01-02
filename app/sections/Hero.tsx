@@ -1,3 +1,5 @@
+import { Link } from 'react-router';
+
 export default function () {
   return (
     <section className="content flex h-dvh flex-col items-center justify-center">
@@ -11,9 +13,9 @@ export default function () {
         <br />
         Special Forces.
       </h1>
-      <a href="#" className="btn mt-3">
+      <Link to="#bewerben" className="btn mt-3">
         Jetzt bewerben
-      </a>
+      </Link>
     </section>
   );
 }
