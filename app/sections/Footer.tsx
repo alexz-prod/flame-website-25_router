@@ -1,11 +1,13 @@
 import { Link } from 'react-router';
+import { Img } from '~/components/Img';
+import { INDEX_IMG_DATA } from '~/data/images';
 
 export default function () {
   return (
     <footer className="bg-incense-900 text-pure pt-12 pb-8">
       <div className="content flex flex-col items-center">
         <Link to="/#top">
-          <img src="/logo/logo_word-pray.svg" className="max-w-xs" />
+          <Img img={INDEX_IMG_DATA.logoWordPray} className="max-w-xs" />
         </Link>
         <div className="flex gap-2">
           <a

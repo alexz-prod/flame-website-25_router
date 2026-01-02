@@ -103,6 +103,18 @@ export const INDEX_IMG_DATA = {
     alt: 'Grafik zur Veranschaulichung der Jahresinhalte',
     src: '/img/triangle-graphic.svg',
   },
+  logoWordPray: {
+    alt: 'Flammen-Icon mit Schriftzug "FlameAcademy"',
+    src: '/logo/logo_word-pray.svg',
+  },
+  logoWordPure: {
+    alt: 'Flammen-Icon mit Schriftzug "FlameAcademy"',
+    src: '/logo/logo_word-pure.svg',
+  },
+  logoGh: {
+    alt: 'Flammen-Icon mit Schriftzug "Gebetshaus"',
+    src: '/logo/gh-logo.svg',
+  },
   wireframe: {
     alt: 'Platzhalter-Bild',
     src: '/img/wireframe-img.svg',
