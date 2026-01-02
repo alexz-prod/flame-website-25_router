@@ -35,7 +35,7 @@ export default function () {
 const TRACK_DATA: TrackItemDto[] = [
   {
     name: 'Lobpreis-Track',
-    img: INDEX_IMG_DATA.wireframe, // TODO: lp-track img
+    img: INDEX_IMG_DATA.womanSinging,
     content: (
       <>
         <p className="mt-4 md:mt-0">

@@ -81,6 +81,16 @@ export const INDEX_IMG_DATA = {
       ['/img/prayer-room@4x.webp', 1280],
     ],
   },
+  womanSinging: {
+    alt: 'Singende Frau',
+    src: '/img/woman-singing@2x.webp',
+    sizes: [
+      ['/img/woman-singing.webp', 320],
+      ['/img/woman-singing@2x.webp', 640],
+      ['/img/woman-singing@3x.webp', 960],
+      ['/img/woman-singing@4x.webp', 1280],
+    ],
+  },
   weeklySchedule: {
     alt: 'Kalenderansicht eines Wochenplans',
     src: '/img/weekly-schedule.svg',
