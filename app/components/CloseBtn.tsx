@@ -6,7 +6,7 @@ export const CloseBtn: FC<ComponentProps<'button'>> = (props) => {
     <button
       {...props}
       className={cx(
-        'active:bg-incense-900/20 clickable absolute top-4 right-4 h-12 w-12 rotate-45 items-center rounded-full text-center text-3xl font-semibold',
+        'clickable absolute top-4 right-4 h-12 w-12 rotate-45 items-center rounded-full text-center text-3xl font-semibold active:bg-current/15',
         props.className,
       )}
     >

@@ -12,7 +12,7 @@ export const PageNav: FC = () => {
       <button
         className="bg-incense-900 text-pure clickable fixed bottom-3 left-1/2 z-40 flex -translate-x-1/2 items-center gap-3 rounded-full px-5 py-3 text-sm tracking-wider uppercase hover:scale-102 active:scale-98"
         type="button"
-        onClick={() => setOpen(!open)}
+        onClick={() => setOpen(true)}
       >
         <img src="/icon/hamburger-icon.svg" alt="Hamburger-Icon" />
         <span className="pt-0.5">Menü</span>
@@ -32,7 +32,7 @@ export const PageNav: FC = () => {
 
         <nav
           className={cx(
-            'bg-pure border-pray fixed bottom-0 left-1/2 max-h-dvh w-full max-w-sm -translate-x-1/2 overflow-auto border-6 p-6 transition-transform duration-500',
+            'bg-incense-900 text-pure fixed bottom-0 left-1/2 max-h-dvh w-full max-w-sm -translate-x-1/2 overflow-auto p-6 transition-transform duration-500',
             {
               'translate-y-full': !open,
               'translate-y-0': open,
@@ -45,7 +45,7 @@ export const PageNav: FC = () => {
             <Link
               key={i.href}
               to={i.href}
-              className="h4 block py-2"
+              className="h4 clickable block origin-left py-2 hover:underline active:scale-98"
               onClick={() => setOpen(false)}
             >
               {i.label}
