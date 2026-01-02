@@ -4,26 +4,22 @@ import { INDEX_IMG_DATA } from '~/data/images';
 
 export default function () {
   return (
-    <section className="content flex h-dvh flex-col items-center justify-center">
+    <section className="content bg-olive flex h-dvh flex-col items-center justify-center">
       <video
         src="/video/gebetshaus-loop.mp4"
         autoPlay
         loop
         muted
         preload="auto"
-        className="absolute inset-0 -z-10 h-full w-full object-cover"
+        className="absolute top-1/2 left-1/2 h-[calc(100%-6rem)] w-[calc(100%-6rem)] -translate-1/2 object-cover"
       />
-      {/* <img
-        src="/img/wireframe-img.svg"
-        alt="TODO:"
-        className="absolute inset-0 -z-10 h-full w-full object-cover"
-      /> */}
+
       <Img
         img={INDEX_IMG_DATA.logoWordPure}
         className="absolute top-4 left-4 w-48"
       />
 
-      <div>
+      <div className="relative">
         <h1 className="h2 text-pure text-6xl">
           <span className="font-normal">Join the</span>
           <br />
@@ -44,12 +40,16 @@ export default function () {
         Be dangerous.
       </div>
 
-      <div className="absolute right-6 bottom-6">
+      <a
+        className="absolute right-6 bottom-6"
+        href="https://gebetshaus.org"
+        target="_blank"
+      >
         <span className="text-pure text-xs tracking-wide uppercase">
           Eine Schule des
         </span>
         <Img img={INDEX_IMG_DATA.logoGh} className="w-36" />
-      </div>
+      </a>
     </section>
   );
 }
