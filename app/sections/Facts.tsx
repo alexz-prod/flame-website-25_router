@@ -20,7 +20,7 @@ const FACT_DATA: FactDto[] = [
   {
     title: 'Kosten',
     description:
-      'Das Schulgeld beträgt 3.290€ bzw. 3.390€ ab 01.02.26  sowie 3.490€ ab 01.04.26.',
+      'Das Schulgeld beträgt 3.290€ bzw. 3.390€ ab 01.02.26 sowie 3.490€ ab 01.04.26.',
   },
   {
     title: 'Wann',
@@ -49,11 +49,11 @@ const FACT_DATA: FactDto[] = [
   {
     title: 'Alter',
     description:
-      '18-99. Die meisten Schüler sind zwischen 20 und 35 Jahre alt.',
+      '18–99. Die meisten Schüler sind zwischen 20 und 35 Jahre alt.',
   },
   {
     title: 'Teilnehmerzahl',
-    description: 'Wir erwartet ca. 40-50 Schüler.',
+    description: 'Wir erwarten ca. 40–50 Schüler.',
   },
   {
     title: 'Bewerbungsfrist',

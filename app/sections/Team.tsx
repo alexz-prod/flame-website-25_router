@@ -27,7 +27,7 @@ export const TEAM_DATA: TeamItemDto[] = [
     position: 'Schulleitung',
     bio: `Conny ist unsere FlameAcademy-Mama. Allerdings eine solche, die dich nicht nur ermutigt und bestärkt, sondern auch herausfordert und zum passenden Zeitpunkt liebevoll-bestimmt aus dem gemütlichen Nest schubst.
 
-Geboren und aufgewachsen in Südbaden lebt sie nun bereits seit über 30 Jahren mit ihrem Mann im Raum Augsburg, hat drei erwachsene Kinder und zwei Enkel. Bevor sie 2016 ins Gebetshaus kam, war sie Physiotherapeutin und ist ausgebildete Seelsorgerin und Persönlichkeitsberaterin. 
+Geboren und aufgewachsen in Südbaden lebt sie nun bereits seit über 30 Jahren mit ihrem Mann im Raum Augsburg, hat drei erwachsene Kinder und fünf Enkel. Bevor sie 2016 ins Gebetshaus kam, war sie Physiotherapeutin und ist ausgebildete Seelsorgerin und Persönlichkeitsberaterin. 
 
 Conny liebt es, wie Gott innerhalb der 10 Monate tiefgründig Menschen verändert und freisetzt, aber ebenso die Entwicklung der Identität und Persönlichkeit jedes Einzelnen. 
 
@@ -39,7 +39,7 @@ Die FlameAcademy wird von ihr gemeinsam mit Silas geleitet, außerdem ist sie ei
     name: 'Silas Rink',
     img: TEAM_IMG_DATA.silasRink,
     position: 'Schulleitung',
-    bio: `Silas kommt - klar - aus dem Siegerland, hat einen älteren Bruder, eine kleine Schwester sowie mittlerweile auch die selbstverständlich allerschönste Ehefrau und die zwei selbstverständlich allersüßesten Kids. 
+    bio: `Silas kommt – klar – aus dem Siegerland, hat einen älteren Bruder, eine kleine Schwester sowie mittlerweile auch die selbstverständlich allerschönste Ehefrau und die zwei selbstverständlich allersüßesten Kids. 
 
 Silas nimmt die meisten Sachen mit Humor und bringt gerne Leichtigkeit rein, ohne dabei die geistliche Tiefe zu überfliegen. Was ihn an der FlameAcademy so begeistert, ist, wie tiefgründig Gott den Schülern in den 10 Monaten begegnet und sie dadurch verändert. 
 
@@ -53,7 +53,7 @@ Gemeinsam mit Conny leitet er die FlameAcademy und ist als Sprecher und Mentor u
     position: 'Teachings & Mentoring',
     bio: `Tobi wuchs im Erzgebirge zwischen Räuchermännern und Schwibbögen auf. Vermutlich war Drechsler deshalb auch sein Wunschberuf als Kind. Stattdessen wurde er später jedoch Sozialarbeiter und ist heute mit der selbstverständlich allerschönsten Ehefrau verheiratet und hat die zwei selbstverständlich allersüßesten Kids. 
 
-Tobi ist ein humorvoller und beziehungsorientierter Ermutiger. Er liebt gesellige Gemeinschaft und bringt gerne Leichtigkeit in die Gruppe. An der FlameAcademy begeistert ihn vor allem die vorgelebte und gelehrte ganzheitliche Spiritualität - Jesus nachzufolgen mit „Haut und Haaren“, ihm mit Körper, Seele und Geist zu begegnen. 
+Tobi ist ein humorvoller und beziehungsorientierter Ermutiger. Er liebt gesellige Gemeinschaft und bringt gerne Leichtigkeit in die Gruppe. An der FlameAcademy begeistert ihn vor allem die vorgelebte und gelehrte ganzheitliche Spiritualität – Jesus nachzufolgen, mit „Haut und Haaren“, ihm mit Körper, Seele und Geist zu begegnen. 
 
 Tobi ist außerdem ein sehr guter Gitarrist, spielt und schaut gerne Fußball und liebt lange, gemütliche Abende mit Freunden. Auf langen Autofahrten läuft bei ihm ansonsten auch schon mal eine Folge der Drei ???. 
 
@@ -63,7 +63,7 @@ In der FlameAcademy ist er gemeinsam mit Rebecca für den Gebetsleiter-Track ver
     name: 'Rebecca Diehl',
     img: TEAM_IMG_DATA.rebeccaDiehl,
     position: 'Leiterin Gebetsleiter-Track',
-    bio: `Rebecca kommt aus Südhessen, wo sie mit ihrem jüngeren Bruder aufgewachsen ist. Dort hat sie dann auch evangelische Theologie studiert. Und wenn wir sagen studiert, dann meinen wir das auch. Über ihr fundiertes Bibelwissen hinaus hat sie aber ebenso große Leidenschaft für das Prophetische. 
+    bio: `Rebecca kommt aus Südhessen, wo sie mit ihrem jüngeren Bruder aufgewachsen ist. Dort hat sie dann auch evangelische Theologie studiert. Und wenn wir sagen, studiert, dann meinen wir das auch. Über ihr fundiertes Bibelwissen hinaus hat sie aber ebenso große Leidenschaft für das Prophetische. 
 
 Was Rebecca an der FlameAcademy fasziniert, ist wie Gott in nur 10 Monaten ein ganzes Leben prägen kann. 
 
@@ -87,15 +87,13 @@ In der FlameAcademy ist sie vor allem bei Teachings und im Mentoring am Start. `
     name: 'Michael Beering',
     img: TEAM_IMG_DATA.michaelBeering,
     position: 'Leiter Lobpreis-Track',
-    bio: `Michi kommt aus Bad Laer in der Nähe von Osnabrück, wuchs dort mit 4 Geschwistern auf und absolvierte ein Duales Studium in der Pflege. Hier im Gebetshaus ist er Teil unserer Special-Forces der Nachtschicht. 
+    bio: `Michi kommt aus Bad Laer in der Nähe von Osnabrück, wuchs dort mit 4 Geschwistern auf und absolvierte ein duales Studium in der Pflege. Hier im Gebetshaus ist er Teil unserer Special-Forces der Nachtschicht. 
 
-Michi ist von der FlameAcademy begeistert, weil sie das Dynamit ist, welches den Weg aus der Mittelmäßigkeit freisprengt! Ein Ort, an dem man gewohnte Muster und alte Lasten hinter sich lassen und sich selbst und Gott ganz neu kennenlernen kann. 
+Michi ist von der FlameAcademy begeistert, weil sie das Dynamit ist, welches den Weg aus der Mittelmäßigkeit frei sprengt! Ein Ort, an dem man gewohnte Muster und alte Lasten hinter sich lassen und sich selbst und Gott ganz neu kennenlernen kann. 
 
-Außerhalb des Gebetshauses geht er gern mit seinen Jungs in die Berge, treibt Sport oder entspannt mit seiner selbstverständlich allerschönsten Frau und seinen zwei selbstverständlich allersüßesten Kids am Sabbat. Ist eine Tüte Chips erstmal offen, muss Michi sie auch vernichten und nachdem er seinen Kaffee leer getrunken hat, trinkt er aus derselben Tasse gnadenlos Wasser…Ja, auch bei Cappuccino. 
+Außerhalb des Gebetshauses geht er gern mit seinen Jungs in die Berge, treibt Sport oder entspannt mit seiner selbstverständlich allerschönsten Frau und seinen zwei selbstverständlich allersüßesten Kids am Sabbat. Ist eine Tüte Chips erstmal offen, muss Michi sie auch vernichten und nachdem er seinen Kaffee leer getrunken hat, trinkt er aus derselben Tasse gnadenlos Wasser… Ja, auch bei Cappuccino. 
 
-Die Schüler des Lobpreis-Tracks kommen bei uns in den Genuss seiner Leitung, genauso wie die Mentees, die von ihm 
-
-begleitet werden.`,
+Die Schüler des Lobpreis-Tracks kommen bei uns in den Genuss seiner Leitung, genauso wie die Mentees, die von ihm begleitet werden.`,
   },
 ];
 

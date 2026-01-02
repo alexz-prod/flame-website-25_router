@@ -12,7 +12,7 @@ export default function () {
     <section id="faq" className="text-pray py-section">
       <div className="content gap-content grid grid-cols-1 md:grid-cols-3">
         <h2 className="h2">FAQ</h2>
-        <ul className="js--accordion col-span-2 max-w-2xl">
+        <ul className="col-span-2 max-w-2xl">
           {FAQ_DATA.map((item, i) => (
             <AccordionItem
               key={i}
@@ -37,9 +37,9 @@ Die Kosten für das Schulgeld sollen dich nicht von einer Bewerbung abhalten. Fa
   },
   {
     title: 'Wie finanziere ich das Jahr?',
-    content: `Wir empfehlen dir, für die Zeit der FlameAcademy einen Kreis von Unterstützern aufzubauen - sowohl im Gebet, als auch finanziell. Vielleicht bekommst du z.B. die Gelegenheit, im Gottesdienst deiner eigenen Gemeinde darüber zu informieren oder kennst Freunde & Familie, die dein Anliegen unterstützen möchten.
+    content: `Wir empfehlen dir, für die Zeit der FlameAcademy einen Kreis von Unterstützern aufzubauen – sowohl im Gebet, als auch finanziell. Vielleicht bekommst du z.B. die Gelegenheit, im Gottesdienst deiner eigenen Gemeinde darüber zu informieren oder kennst Freunde & Familie, die dein Anliegen unterstützen möchten.
 Spendenbescheinigungen für private Spenden an dich können wir jedoch nicht ausstellen. Unter bestimmten Voraussetzungen ist es außerdem möglich, Wohngeld bei der Stadt Augsburg zu beantragen. Informiere dich bei Interesse aber am besten selbst genauer auf der <a class="link-inline" href="https://www.augsburg.de/buergerservice-rathaus/buergerservice/dienste-a-z/aemterweise/leistungen-amt-fuer-soziale-leistungen-senioren-und-menschen-mit-behinderung/wohngeld" target="_blank" rel="noopener noreferrer">Wohngeldseite der Stadt Augsburg</a>.
-Habe Glauben, dass Gott wirklich versorgt - unsere Erfahrung ist, wenn er dich hier haben möchte, wird es nicht an den Finanzen scheitern!
+Habe Glauben, dass Gott wirklich versorgt – unsere Erfahrung ist, wenn er dich hier haben möchte, wird es nicht an den Finanzen scheitern!
 `,
   },
   {
@@ -59,7 +59,7 @@ Auch sonst kannst du gerne ins Gebetshaus kommen und dich z.B. mal in ein Teachi
   {
     title: 'Können wir als Ehepaar bzw. Familie teilnehmen?',
     content: `Ehepaare sind bei uns herzlich willkommen, und Ehepaare ohne oder mit erwachsenen Kindern können problemlos gemeinsam an der FlameAcademy teilnehmen. Wir wollen es besonders wertschätzen, wenn ihr euch als Ehepaar auf diesen mutigen Schritt einlasst, darum zahlt ihr 500€ weniger Schulgeld.
-Für Familien gilt: Die FlameAcademy ist als Vollzeitschule konzipiert und erlaubt darüber hinaus durch die besonderen zeitlichen Rahmenbedingungen (z.B. während der Nachtschicht) leider nicht, dass beide Eltern in Vollzeit teilnehmen. Wir haben jedoch die Möglichkeit geschaffen, dass der andere, nicht vollzeitig teilnehmende Ehepartner punktuell bei Lehr- und Gemeinschaftszeiten dabei sein kann, wenn die Kinder anderweitig betreut werden, was jedoch selbstständig zu organisieren ist. Außerdem können Lehren auch zeitnah online nachgeholt werden. Alle weiteren Programmpunkte sind nur für den vollzeitig teilnehmenden Ehepartner vorgesehen. Natürlich sind Familien im Gebetshaus generell herzlich willkommen, um mit den Kindern zu beten oder auch an Mütterangeboten der ehrenamtlichen Mitarbeiter des Gebetshauses teilzunehmen.`,
+Für Familien gilt: Die FlameAcademy ist als Vollzeitschule konzipiert und erlaubt darüber hinaus durch die besonderen zeitlichen Rahmenbedingungen (z.B. während der Nachtschicht) leider nicht, dass beide Eltern in Vollzeit teilnehmen. Wir haben jedoch die Möglichkeit geschaffen, dass der andere, nicht Vollzeit teilnehmende Ehepartner punktuell bei Lehr- und Gemeinschaftszeiten dabei sein kann, wenn die Kinder anderweitig betreut werden, was jedoch selbstständig zu organisieren ist. Außerdem können Lehren auch zeitnah online nachgeholt werden. Alle weiteren Programmpunkte sind nur für den Vollzeit teilnehmenden Ehepartner vorgesehen. Natürlich sind Familien im Gebetshaus generell herzlich willkommen, um mit den Kindern zu beten oder auch an Mütterangeboten der ehrenamtlichen Mitarbeiter des Gebetshauses teilzunehmen.`,
   },
   {
     title: 'Wie alt sind die meisten Teilnehmer?',
@@ -79,6 +79,6 @@ Für Familien gilt: Die FlameAcademy ist als Vollzeitschule konzipiert und erlau
   },
   {
     title: 'Wie bin ich während der FlameAcademy versichert?',
-    content: `Während der FlameAcademy ist eine eigene Kranken- und Haftpflichtversicherung verpflichtend, mit der Unterzeichnung des Schulvertrags bestätigst du uns diese auch. Falls Du unter 25 Jahre alt und noch familienversichert bist, kann dies fortgeführt werden, eine entsprechende Schulbestätigung erhältst du von uns auf Anfrage. Falls Du über 25 Jahre alt bist, kannst Du bei deiner Krankenkasse nach günstigeren Schülertarifen fragen.`,
+    content: `Während der FlameAcademy ist eine eigene Kranken- und Haftpflichtversicherung verpflichtend, mit der Unterzeichnung des Schulvertrags bestätigst du uns diese auch. Falls du unter 25 Jahre alt und noch familienversichert bist, kann dies fortgeführt werden, eine entsprechende Schulbestätigung erhältst du von uns auf Anfrage. Falls du über 25 Jahre alt bist, kannst du bei deiner Krankenkasse nach günstigeren Schülertarifen fragen.`,
   },
 ];

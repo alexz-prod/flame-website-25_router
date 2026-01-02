@@ -39,12 +39,12 @@ const TRACK_DATA: TrackItemDto[] = [
     content: (
       <>
         <p className="mt-4 md:mt-0">
-          Hier lernst du beides: Skills & Know-How als Lobpreiser und wie du das
+          Hier lernst du beides: Skills & Know-how als Lobpreiser und wie du das
           Herz eines leidenschaftlichen Anbeters entwickelst.
         </p>
         <h4 className="h4 mt-8 mb-4">Theorie</h4>
         <p>
-          Lerne von inspirierenden Lobpreisleitern - Michael Beering, Veronika
+          Lerne von inspirierenden Lobpreisleitern – Michael Beering, Veronika
           Lohmer, Joy Fackler, Andi Ziller und vielen mehr.
         </p>
         <h4 className="h4 mt-8 mb-4">Praxis</h4>

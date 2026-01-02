@@ -43,7 +43,7 @@ const INFO_DATA: InfoDto[] = [
     preTitle: 'Input',
     title: '300h Teachings',
     content:
-      'Du lernst von einigen der besten Teacher im deutschsprachigen Raum - Johannes Hartl, Veronika Lohmer, Joy Fackler, Elias Glaeser, Tini Brüning und viele mehr.',
+      'Du lernst von einigen der besten Teacher im deutschsprachigen Raum – Johannes Hartl, Veronika Lohmer, Joy Fackler, Elias Glaeser, Tini Brüning und viele mehr.',
   },
   {
     preTitle: 'Jüngerschaft – Part I',
@@ -55,7 +55,7 @@ const INFO_DATA: InfoDto[] = [
     preTitle: 'Jüngerschaft – Part II',
     title: '72h Jünger&shy;schafts&shy;gruppe',
     content:
-      'Du triffst dich 1x pro Wochen mit 2-4 Weggefährten für Austausch & Gebet.',
+      'Du triffst dich 1x pro Woche mit 2–4 Weggefährten für Austausch & Gebet.',
   },
   {
     preTitle: 'Gemeinschaft – Part I',

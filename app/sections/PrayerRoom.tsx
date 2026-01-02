@@ -27,7 +27,7 @@ export default function () {
       <p className="gap-content content mt-10 sm:columns-2 lg:mt-48 lg:columns-1">
         Bei uns dreht sich alles um Gott, deshalb beten wir auch so viel. Der
         Gebetsraum ist unser unangefochtenes Herzstück. Er ist dein Ort der
-        Begegnung mit Gott und während der Schuljahres wie ein Gewächshaus für
+        Begegnung mit Gott und während des Schuljahres wie ein Gewächshaus für
         all das Gute, das er durch Teachings, Training, Gemeinschaft und
         Mentoring in dein Herz pflanzen wird!
         <br />

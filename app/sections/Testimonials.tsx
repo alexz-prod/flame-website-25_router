@@ -102,7 +102,7 @@ let TESTIMONIAL_DATA: TestimonialDto[] = [
       img: TESTIMONIAL_IMG_DATA.eliasGlaeser,
     },
     content:
-      'Die intensive Gemeinschaft und die vielen Stunden in Gottes Gegenwart haben mein Leben verändert. Es ist unglaublich wieviel Neues ich über mich selbst und über Gott erfahren habe. ',
+      'Die intensive Gemeinschaft und die vielen Stunden in Gottes Gegenwart haben mein Leben verändert. Es ist unglaublich, wie viel Neues ich über mich selbst und über Gott erfahren habe. ',
   },
   {
     slug: 'stimme-cornelia-kindsvater',
@@ -146,7 +146,7 @@ let TESTIMONIAL_DATA: TestimonialDto[] = [
       img: TESTIMONIAL_IMG_DATA.sarahGeorg,
     },
     content:
-      'Während der FlameAcademy durfte ich in meinen Gebetsraumzeiten lernen, was es heisst, unter Gottes liebendem Blick zu stehen und von dieser Position aus Lobpreis zu leiten. Ich habe dabei eine neue Freiheit entdeckt, die ich vorher nicht kannte - meine Anbetung ist tiefer, echter und lebendiger geworden.',
+      'Während der FlameAcademy durfte ich in meinen Gebetsraumzeiten lernen, was es heißt, unter Gottes liebendem Blick zu stehen und von dieser Position aus Lobpreis zu leiten. Ich habe dabei eine neue Freiheit entdeckt, die ich vorher nicht kannte – meine Anbetung ist tiefer, echter und lebendiger geworden.',
   },
   {
     slug: 'stimme-sarina-deitigsmann',
@@ -179,7 +179,7 @@ let TESTIMONIAL_DATA: TestimonialDto[] = [
       img: TESTIMONIAL_IMG_DATA.julianRau,
     },
     content:
-      'Die FlameAcademy hat mir nicht einfach nur mehr Skills gebracht , sie hat mein Leben verändert. Ich habe gelernt, beziehungsfähig zu leben, meinen Fokus zu finden und Gott auf völlig neue Arten zu begegnen.',
+      'Die FlameAcademy hat mir nicht einfach nur mehr Skills gebracht, sie hat mein Leben verändert. Ich habe gelernt, beziehungsfähig zu leben, meinen Fokus zu finden und Gott auf völlig neue Arten zu begegnen.',
   },
   {
     slug: 'stimme-pronks',
@@ -190,7 +190,7 @@ let TESTIMONIAL_DATA: TestimonialDto[] = [
       img: TESTIMONIAL_IMG_DATA.pronks,
     },
     content:
-      'Das besondere an der FlameAcademy ist ihre Ganzheitlichkeit - wichtig ist unser Herz, nicht allein äußerlich sichtbare Begabungen. Diese 10 Monate waren ein großer Gewinn für uns. Die Teachings waren praxisnah, die Zeit im Gebetsraum lebensverändernd. Hier wurde unsere Berufung geschärft und unsere Beziehung zu Jesus hat ein neues, tieferes Level erreicht.',
+      'Das Besondere an der FlameAcademy ist ihre Ganzheitlichkeit – wichtig ist unser Herz, nicht allein äußerlich sichtbare Begabungen. Diese 10 Monate waren ein großer Gewinn für uns. Die Teachings waren praxisnah, die Zeit im Gebetsraum lebensverändernd. Hier wurde unsere Berufung geschärft und unsere Beziehung zu Jesus hat ein neues, tieferes Level erreicht.',
   },
 ];
 

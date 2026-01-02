@@ -30,7 +30,7 @@
 }
 
 :root {
-  @apply text-incense-900 bg-pure; /* TODO: scroll-smooth */
+  @apply text-incense-900 bg-pure;
   interpolate-size: allow-keywords;
   overflow-x: hidden;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 @utility btn {
-  @apply bg-pray text-pure flex cursor-pointer justify-center px-7 py-4 text-center text-base font-black tracking-wider uppercase transition-all;
+  @apply bg-pray text-pure flex cursor-pointer justify-center px-7 py-4 text-center text-base font-black tracking-wider uppercase transition-all select-none;
 
   &:hover {
     @apply bg-pray_hover;
