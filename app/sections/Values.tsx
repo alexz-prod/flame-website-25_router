@@ -22,11 +22,11 @@ export default function () {
         <li className="bg-olive sm:bg-day xs:pb-12 relative min-h-80 sm:p-0">
           <Img
             img={INDEX_IMG_DATA.hannesPraying}
-            className="mx-auto aspect-square w-full max-w-sm sm:absolute sm:inset-0 sm:h-full sm:max-w-none sm:object-cover xl:relative 2xl:max-h-100"
+            className="xs:max-w-sm mx-auto aspect-square h-full w-full object-cover sm:max-w-none"
           />
         </li>
         {/* <!-- go-deep text --> */}
-        <li className="bg-day text-pray px-content flex flex-col justify-center py-12 sm:order-1 xl:order-2">
+        <li className="bg-day text-pray px-content flex flex-col justify-center py-12 sm:order-1 sm:aspect-square xl:order-2">
           <h3 className="h3">Go deep.</h3>
           <p className="mt-1">
             Du wirst dieses Gefühl nicht los, dass da noch mehr sein muss? Wir
@@ -36,8 +36,8 @@ export default function () {
           </p>
         </li>
         {/* <!-- get-real img --> */}
-        <li className="bg-day sm:bg-olive flex items-center pb-12 sm:pt-2 xl:order-1">
-          <figure className="relative mx-auto w-full max-w-xs sm:mx-12">
+        <li className="bg-day sm:bg-olive flex items-center justify-center pb-12 sm:p-0 xl:order-1">
+          <figure className="relative mx-auto aspect-square w-full max-w-xs sm:mx-12">
             <Img
               img={INDEX_IMG_DATA.orangeJacketGirl}
               className="aspect-square w-full"
@@ -65,7 +65,7 @@ export default function () {
         <li className="xs:pb-12 relative min-h-80 sm:order-2 sm:p-0">
           <Img
             img={INDEX_IMG_DATA.ghStructure3}
-            className="bg-incense-900 mx-auto aspect-square w-full max-w-sm sm:absolute sm:inset-0 sm:h-full sm:max-w-none sm:object-cover xl:relative 2xl:max-h-110"
+            className="bg-incense-900 xs:max-w-sm mx-auto aspect-square h-full w-full object-cover sm:max-w-none"
           />
         </li>
       </ul>

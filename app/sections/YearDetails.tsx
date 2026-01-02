@@ -8,10 +8,10 @@ export default function () {
         <h3 className="h2 text-olive">Was heißt das konkret?</h3>
         <div className="gap-content mt-8 grid grid-cols-2 md:mt-16 lg:grid-cols-3">
           {/* <!-- img hartl --> */}
-          <div className="relative -col-start-1 -col-end-2 row-start-1 sm:row-end-3">
+          <div className="xs:row-end-3 relative -col-start-1 -col-end-2 row-start-1 sm:row-end-4">
             <Img
               img={INDEX_IMG_DATA.hartlTeaching}
-              className="h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover"
             />
           </div>
           {/* <!-- gebetsraum --> */}
