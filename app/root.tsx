@@ -12,7 +12,18 @@ import './css/index.css';
 import Footer from './sections/Footer';
 import { PageNav } from './components/PageNav';
 
-export const links: Route.LinksFunction = () => [];
+export const links: Route.LinksFunction = () => [
+  {
+    rel: 'icon',
+    sizes: '32',
+    href: '/favicon-32x32.webp',
+  },
+  {
+    rel: 'icon',
+    sizes: '192',
+    href: '/favicon-192x192.webp',
+  },
+];
 
 export function meta({}: Route.MetaArgs) {
   return [
