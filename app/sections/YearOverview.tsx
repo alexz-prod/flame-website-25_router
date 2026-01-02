@@ -1,3 +1,6 @@
+import { Img } from '~/components/Img';
+import { INDEX_IMG_DATA } from '~/data/images';
+
 export default function () {
   return (
     <section id="schuljahr" className="py-section content">
@@ -5,12 +8,12 @@ export default function () {
         Dein Schuljahr auf einen Blick
       </h2>
 
-      <img
-        className="mt-10 aspect-video max-h-80 w-full object-cover lg:mt-16 lg:ml-[20%] lg:w-[80%]"
-        src="/img/wireframe-img.svg"
+      <Img
+        img={INDEX_IMG_DATA.triangleGraphic}
+        className="mt-10 w-full lg:mt-16 lg:ml-[20%] lg:w-[80%]"
       />
 
-      <ul className="gap-content with-border-top relative mt-6 grid pt-4 sm:gap-12 lg:mt-12 lg:ml-auto lg:w-[80%] lg:grid-cols-3">
+      <ul className="gap-content with-border-top relative mt-6 grid pt-4 sm:gap-12 lg:ml-auto lg:w-[80%] lg:grid-cols-3">
         <li>
           <div className="h3 mb-4">Gottes&shy;bild</div>
           <p>

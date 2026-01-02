@@ -99,6 +99,10 @@ export const INDEX_IMG_DATA = {
     alt: 'Tribal Muster',
     src: '/img/gh-struktur-3_pray.svg',
   },
+  triangleGraphic: {
+    alt: 'Grafik zur Veranschaulichung der Jahresinhalte',
+    src: '/img/triangle-graphic.svg',
+  },
   wireframe: {
     alt: 'Platzhalter-Bild',
     src: '/img/wireframe-img.svg',
