@@ -7,7 +7,7 @@ import { cx } from '~/domain/utils/cx';
 import type { ImgDto } from '~/types/ImgDto';
 
 export default function () {
-  const [overlayOpen, setOverlayOpen] = useState(true);
+  const [overlayOpen, setOverlayOpen] = useState(false);
 
   return (
     <section className="py-section bg-pray text-pure">
