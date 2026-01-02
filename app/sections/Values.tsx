@@ -49,19 +49,18 @@ export default function () {
             </p>
           </figure>
         </li>
-        {/* <!-- get-dangerous text --> */}
+        {/* <!-- be-dangerous text --> */}
         <li className="bg-pure text-olive px-content flex flex-col justify-center py-12 sm:order-2 xl:order-0">
           <h3 className="h3">Be dangerous.</h3>
           <p className="mt-1">
-            Um dein Leben herrscht ein andauernder geistlicher Kampf. Und du
-            bist berufen, nicht nur überforderter Zuschauer zu sein, sondern
-            aktiv Verantwortung zu übernehmen und an Jesu Seite zu kämpfen. Hört
-            sich komisch an für dich? Hier lernst du auf natürlich
-            übernatürliche Weise, diesen Weg zu gehen und mit ihm den Sieg zu
-            erringen.
+            In dieser Welt gibt es viel Kaputtes und Dunkles. Doch du bist
+            berufen, nicht nur überforderter Zuschauer zu sein, sondern aktiv
+            Verantwortung zu übernehmen und an Jesu Seite zu kämpfen. Hört sich
+            komisch an für dich? Hier lernst du auf natürlich übernatürliche
+            Weise, diesen Weg zu gehen und mit ihm den Sieg zu erringen.
           </p>
         </li>
-        {/* <!-- get-dangerous img --> */}
+        {/* <!-- be-dangerous img --> */}
         <li className="xs:pb-12 relative min-h-80 sm:order-2 sm:p-0">
           <Img
             img={INDEX_IMG_DATA.ghStructure3}

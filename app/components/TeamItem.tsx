@@ -16,7 +16,7 @@ export const TeamCardItem: FC<Props> = ({ member }) => {
       <div className="w-full text-left">
         <Img
           img={member.img}
-          className="w-full cursor-pointer object-cover"
+          className="w-full cursor-pointer object-cover transition-transform duration-400 hover:scale-102"
           onClick={() => setIsOpen(true)}
         />
         <h3 className="h4 mt-4">{member.name}</h3>
@@ -32,7 +32,7 @@ export const TeamCardItem: FC<Props> = ({ member }) => {
       )}
       <div
         className={cx(
-          'bg-pure px-content fixed top-1/2 left-1/2 flex h-full w-full max-w-4xl -translate-1/2 flex-col items-start gap-12 overflow-y-auto pt-20 pb-8 shadow-2xl transition-all md:h-9/10 md:flex-row',
+          'bg-day px-content fixed top-1/2 left-1/2 flex h-full w-full max-w-4xl -translate-1/2 flex-col items-start gap-12 overflow-y-auto pt-20 pb-8 shadow-2xl transition-all md:h-9/10 md:flex-row',
           {
             'invisible scale-98 opacity-0': !isOpen,
             'visible scale-100 opacity-100': isOpen,
@@ -42,7 +42,7 @@ export const TeamCardItem: FC<Props> = ({ member }) => {
         <CloseBtn onClick={() => setIsOpen(false)} />
         <Img
           img={member.img}
-          className="aspect-square w-full max-w-80 object-cover"
+          className="aspect-square w-full max-w-80 object-cover md:sticky md:-top-8"
         />
 
         <div>

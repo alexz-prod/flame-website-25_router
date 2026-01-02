@@ -21,7 +21,8 @@ export default function () {
             Ordnung. In der ersten Phase der FlameAcademy bekommst du tiefen
             Input, der dein Gottesbild ganz sicher challengen wird. Kennst du
             Gott als Vater, als Freund, als Retter, als König? Bei uns wirst du
-            nicht nur von ihm hören, sondern ihm begegnen.
+            nicht nur von ihm hören, sondern ihm begegnen und aus der Kraft
+            seines Geistes leben lernen.
           </p>
         </li>
         <li>
@@ -31,7 +32,7 @@ export default function () {
 
           <div className="h3 mb-4">Selbst&shy;bild</div>
           <p>
-            Wer bist du eigentlich?Warum hat Gott dich erschaffen und will
+            Wer bist du eigentlich? Warum hat Gott dich erschaffen und will
             ausgerechnet dich gebrauchen, um die Welt zu verändern? Du kommst
             nicht durch die FlameAcademy, ohne dich intensiv mit dieser Frage
             auseinanderzusetzen. Hier werden die Fundamente deines Selbstbildes

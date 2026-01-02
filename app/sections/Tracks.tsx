@@ -11,8 +11,9 @@ export default function () {
         <div className="max-w-2xl">
           <h2 className="h2">Tracks — Werde trainiert in Lobpreis & Gebet</h2>
           <p>
-            Kurzer Satz: Was sind die Tracks? → Du kannst einen von zwei Tracks
-            wählen
+            Die Tracks finden wöchentlich zweimal statt und sind unsere
+            Trainingssessions. Du kannst wählen, ob du in Gebetsleitung oder
+            Lobpreis ausgebildet wirst.
           </p>
         </div>
 
@@ -91,9 +92,8 @@ const TRACK_DATA: TrackItemDto[] = [
             aus.
           </li>
           <li>
-            <h5 className="h5">Einsätze und Ministries</h5>
-            Diene Menschen auf Gebetshausveranstaltungen im Gebet und
-            unterstütze Gemeinden in der Fürbitte.
+            <h5 className="h5">Ministries</h5>
+            Diene Menschen im Gebet, z.B. auf Gebetshausveranstaltungen.
           </li>
         </ul>
       </>

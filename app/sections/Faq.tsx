@@ -58,7 +58,7 @@ Auch sonst kannst du gerne ins Gebetshaus kommen und dich z.B. mal in ein Teachi
   },
   {
     title: 'Können wir als Ehepaar bzw. Familie teilnehmen?',
-    content: `Ehepaare sind bei herzlich willkommen, und Ehepaare ohne oder mit erwachsenen Kindern können problemlos gemeinsam an der FlameAcademy teilnehmen. Wir wollen es besonders wertschätzen, wenn ihr euch als Ehepaar auf diesen mutigen Schritt einlasst, darum zahlt ihr 500€ weniger Schulgeld.
+    content: `Ehepaare sind bei uns herzlich willkommen, und Ehepaare ohne oder mit erwachsenen Kindern können problemlos gemeinsam an der FlameAcademy teilnehmen. Wir wollen es besonders wertschätzen, wenn ihr euch als Ehepaar auf diesen mutigen Schritt einlasst, darum zahlt ihr 500€ weniger Schulgeld.
 Für Familien gilt: Die FlameAcademy ist als Vollzeitschule konzipiert und erlaubt darüber hinaus durch die besonderen zeitlichen Rahmenbedingungen (z.B. während der Nachtschicht) leider nicht, dass beide Eltern in Vollzeit teilnehmen. Wir haben jedoch die Möglichkeit geschaffen, dass der andere, nicht vollzeitig teilnehmende Ehepartner punktuell bei Lehr- und Gemeinschaftszeiten dabei sein kann, wenn die Kinder anderweitig betreut werden, was jedoch selbstständig zu organisieren ist. Außerdem können Lehren auch zeitnah online nachgeholt werden. Alle weiteren Programmpunkte sind nur für den vollzeitig teilnehmenden Ehepartner vorgesehen. Natürlich sind Familien im Gebetshaus generell herzlich willkommen, um mit den Kindern zu beten oder auch an Mütterangeboten der ehrenamtlichen Mitarbeiter des Gebetshauses teilzunehmen.`,
   },
   {
