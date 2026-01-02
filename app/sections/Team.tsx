@@ -87,11 +87,11 @@ In der FlameAcademy ist sie vor allem bei Teachings und im Mentoring am Start. `
     name: 'Michael Beering',
     img: TEAM_IMG_DATA.michaelBeering,
     position: 'Leiter Lobpreis-Track',
-    bio: `Michi kommt aus Bad Laer in der Nähe von Osnabrück, wuchs dort mit 4 Geschwistern auf und absolvierte ein duales Studium in der Pflege. Hier im Gebetshaus ist er Teil unserer Special-Forces der Nachtschicht. 
+    bio: `Michael kommt aus Bad Laer in der Nähe von Osnabrück, wuchs dort mit 4 Geschwistern auf und absolvierte ein duales Studium in der Pflege. Hier im Gebetshaus ist er Teil unserer Special-Forces der Nachtschicht. 
 
-Michi ist von der FlameAcademy begeistert, weil sie das Dynamit ist, welches den Weg aus der Mittelmäßigkeit frei sprengt! Ein Ort, an dem man gewohnte Muster und alte Lasten hinter sich lassen und sich selbst und Gott ganz neu kennenlernen kann. 
+Michael ist von der FlameAcademy begeistert, weil sie das Dynamit ist, welches den Weg aus der Mittelmäßigkeit frei sprengt! Ein Ort, an dem man gewohnte Muster und alte Lasten hinter sich lassen und sich selbst und Gott ganz neu kennenlernen kann. 
 
-Außerhalb des Gebetshauses geht er gern mit seinen Jungs in die Berge, treibt Sport oder entspannt mit seiner selbstverständlich allerschönsten Frau und seinen zwei selbstverständlich allersüßesten Kids am Sabbat. Ist eine Tüte Chips erstmal offen, muss Michi sie auch vernichten und nachdem er seinen Kaffee leer getrunken hat, trinkt er aus derselben Tasse gnadenlos Wasser… Ja, auch bei Cappuccino. 
+Außerhalb des Gebetshauses geht er gern mit seinen Jungs in die Berge, treibt Sport oder entspannt mit seiner selbstverständlich allerschönsten Frau und seinen zwei selbstverständlich allersüßesten Kids am Sabbat. Ist eine Tüte Chips erstmal offen, muss Michael sie auch vernichten und nachdem er seinen Kaffee leer getrunken hat, trinkt er aus derselben Tasse gnadenlos Wasser… Ja, auch bei Cappuccino. 
 
 Die Schüler des Lobpreis-Tracks kommen bei uns in den Genuss seiner Leitung, genauso wie die Mentees, die von ihm begleitet werden.`,
   },

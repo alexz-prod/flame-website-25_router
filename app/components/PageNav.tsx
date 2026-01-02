@@ -95,7 +95,7 @@ const NAV_DATA: NavDto[] = [
     href: '/#wochenplan',
   },
   {
-    label: 'Werde Teil des Gebetshaus',
+    label: 'Werde Teil des Gebetshauses',
     href: '/#gebetshaus',
   },
   {

@@ -96,7 +96,7 @@ let TESTIMONIAL_DATA: TestimonialDto[] = [
   {
     slug: 'stimme-elias-glaeser',
     author: {
-      name: 'Elias Gläser',
+      name: 'Elias Glaeser',
       bio: 'Speaker & Podcaster, GebetshausMissionar',
       year: '2019/2020',
       img: TESTIMONIAL_IMG_DATA.eliasGlaeser,
