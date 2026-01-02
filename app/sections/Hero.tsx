@@ -23,10 +23,6 @@ export default function () {
         className="absolute top-4 left-4 w-48"
       />
 
-      <div className="text-pure absolute bottom-5 left-6 text-xs font-semibold tracking-wide uppercase">
-        (C) 2025 FlameAcademy
-      </div>
-
       <div>
         <h1 className="h2 text-pure text-6xl">
           <span className="font-normal">Join the</span>
