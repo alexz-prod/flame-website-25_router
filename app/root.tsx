@@ -28,7 +28,11 @@ export const links: Route.LinksFunction = () => [
 export function meta({}: Route.MetaArgs) {
   return [
     { title: 'FlameAcademy – Die Jüngerschaftsschule des Gebetshaus Augsburg' },
-    { name: 'description', content: 'TODO: description' },
+    {
+      name: 'description',
+      content:
+        'Die Jüngerschaftsschule des Gebetshauses — Du bist zu mehr berufen, als zu einem netten Leben mit Sonntagsbesuch in der Kirche. Gott ruft dich, Teil seiner Special Forces auf der Erde zu werden. In der FlameAcademy bilden wir dich aus zum Profi im Gebet, Kämpfer im Lobpreis und Nachfolger in Leidenschaft.',
+    },
   ];
 }
 
