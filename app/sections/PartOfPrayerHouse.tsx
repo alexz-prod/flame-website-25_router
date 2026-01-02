@@ -16,7 +16,7 @@ export default function () {
               className="ml-auto aspect-video w-full object-cover lg:aspect-square lg:max-w-[80%]"
             />
             <div className="pl-content -mt-2 max-w-4xl lg:absolute lg:-top-19 lg:left-0 lg:max-w-64 lg:p-0">
-              <h3 className="h3 normal-case">Wir beten 24/7 seit 2011</h3>
+              <h3 className="h3">Wir beten 24/7 seit 2011</h3>
               <p className="mt-1">
                 Werde Teil eines verrückten Haufens von verliebten
                 Fürbittkämpfern und vollmächtigen Anbetern und lerne diesen
@@ -30,8 +30,8 @@ export default function () {
               img={INDEX_IMG_DATA.mehrAtmo}
               className="ml-auto aspect-video w-full object-cover lg:aspect-square lg:max-w-[80%]"
             />
-            <div className="pl-content -mt-2 max-w-4xl lg:absolute lg:-bottom-14 lg:left-0 lg:max-w-64 lg:p-0">
-              <h3 className="h3 normal-case">
+            <div className="pl-content -mt-2 max-w-4xl lg:absolute lg:-bottom-10 lg:left-0 lg:max-w-76 lg:p-0">
+              <h3 className="h3">
                 Sei bei den größten Events im deutsch&shy;sprachigen Raum mit
                 dabei
               </h3>
