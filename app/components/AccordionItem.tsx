@@ -37,9 +37,10 @@ export const AccordionItem: FC<Props> = ({ item, isOpen, onClick }) => {
           'h-auto': isOpen,
         })}
       >
-        <p className="text-incense-900 pb-2 leading-relaxed whitespace-pre-line">
-          {item.content}
-        </p>
+        <p
+          className="text-incense-900 pb-2 leading-relaxed whitespace-pre-line"
+          dangerouslySetInnerHTML={{ __html: item.content }}
+        />
       </div>
     </li>
   );

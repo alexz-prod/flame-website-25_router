@@ -38,8 +38,8 @@ Die Kosten für das Schulgeld sollen dich nicht von einer Bewerbung abhalten. Fa
   {
     title: 'Wie finanziere ich das Jahr?',
     content: `Wir empfehlen dir, für die Zeit der FlameAcademy einen Kreis von Unterstützern aufzubauen - sowohl im Gebet, als auch finanziell. Vielleicht bekommst du z.B. die Gelegenheit, im Gottesdienst deiner eigenen Gemeinde darüber zu informieren oder kennst Freunde & Familie, die dein Anliegen unterstützen möchten.
-Spendenbescheinigungen für private Spenden an dich können wir jedoch nicht ausstellen. Unter bestimmten Voraussetzungen ist es außerdem möglich, Wohngeld bei der Stadt Augsburg zu beantragen. Informiere dich bei Interesse aber am besten selbst genauer: https://www.augsburg.de/buergerservice-rathaus/buergerservice/dienste-a-z/aemterweise/leistungen-amt-fuer-soziale-leistungen-senioren-und-menschen-mit-behinderung/wohngeld
-Habe Glauben, dass Gott wirklich versorgt - wenn er dich hier haben möchte, wird es nicht an den Finanzen scheitern!
+Spendenbescheinigungen für private Spenden an dich können wir jedoch nicht ausstellen. Unter bestimmten Voraussetzungen ist es außerdem möglich, Wohngeld bei der Stadt Augsburg zu beantragen. Informiere dich bei Interesse aber am besten selbst genauer auf der <a class="link-inline" href="https://www.augsburg.de/buergerservice-rathaus/buergerservice/dienste-a-z/aemterweise/leistungen-amt-fuer-soziale-leistungen-senioren-und-menschen-mit-behinderung/wohngeld" target="_blank" rel="noopener noreferrer">Wohngeldseite der Stadt Augsburg</a>.
+Habe Glauben, dass Gott wirklich versorgt - unsere Erfahrung ist, wenn er dich hier haben möchte, wird es nicht an den Finanzen scheitern!
 `,
   },
   {

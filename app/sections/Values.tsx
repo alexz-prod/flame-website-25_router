@@ -31,7 +31,7 @@ export default function () {
           <p className="mt-1">
             Du wirst dieses Gefühl nicht los, dass da noch mehr sein muss? Wir
             auch nicht. Hier hast du Zeit und Raum, wirklich tief zu gehen mit
-            Jesus. In 20h Mentoring, 90h Jüngerschaftsgruppe, 200h Teachings und
+            Jesus. In 15h Mentoring, 90h Jüngerschaftsgruppe, 200h Teachings und
             800 h Gebetsraum wirst du deinem Gott begegnen wie niemals zuvor.
           </p>
         </li>

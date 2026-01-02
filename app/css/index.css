@@ -43,11 +43,12 @@ body {
   @apply px-content mx-auto max-w-7xl;
 }
 
-.clickable {
+@utility clickable {
   @apply cursor-pointer transition-all;
-}
-.clickable:active {
-  @apply transition-none;
+
+  &:active {
+    @apply transition-none;
+  }
 }
 
 @utility btn {
@@ -99,32 +100,8 @@ body {
   }
 }
 
-/* -- JS toggle classes -- */
-.nav_visible {
-  opacity: 1;
-  visibility: visible;
-}
-
-.nav_visible nav {
-  --tw-translate-y: 0;
-}
-
-.overlay {
-  @apply invisible scale-98 opacity-0 transition-all;
-}
-
-.overlay_visible {
-  @apply visible scale-100 opacity-100;
-}
-
-.inline-overlay {
-  @apply invisible origin-top-left scale-98 opacity-0 transition-all;
-}
-.inline-overlay_right {
-  @apply origin-top-right;
-}
-.inline-overlay_visible {
-  @apply visible scale-100 opacity-100;
+.link-inline {
+  @apply underline;
 }
 
 /* -- :ROOT MEDIA-QUERIES */
