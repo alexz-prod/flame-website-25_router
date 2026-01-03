@@ -6,7 +6,7 @@ export default function () {
     <section id="gebetshaus" className="py-section bg-olive text-day">
       <div className="content">
         <h2 className="h2 md:max-w-[80%] lg:max-w-2/3 xl:max-w-[45%]">
-          Werde Teil des Gebetshauses
+          Werde Teil des Gebets&shy;hauses
         </h2>
 
         <div className="mt-16 grid gap-12 sm:mt-16 lg:mt-24 lg:grid-cols-2">
