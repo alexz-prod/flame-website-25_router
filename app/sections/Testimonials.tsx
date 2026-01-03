@@ -10,9 +10,27 @@ export default function () {
   const [overlayOpen, setOverlayOpen] = useState(false);
 
   return (
-    <section id="testimonials" className="py-section bg-pray text-pure">
-      <div className="content">
+    <section
+      id="testimonials"
+      className="pb-section bg-pray text-pure sm:pt-section pt-34"
+    >
+      <div className="content relative">
         <h2 className="h2 text-day max-w-md">Stimmen von Absol&shy;venten</h2>
+
+        <div className="lg:right-content text-pure absolute -top-33 right-2 w-65 rotate-4 sm:-top-12 md:right-6 lg:-top-10">
+          <div className="font-display flex items-center gap-4 text-4xl">
+            <span className="text-6xl">98,99%</span>
+            <span className="block leading-none">
+              weiter-
+              <br />
+              empfohlen
+            </span>
+          </div>
+          <small className="mt-4 inline-block text-sm leading-tight">
+            Von 2020-2025 empfehlen 196 / 198 Teilnehmer die FlameAcademy
+            weiter.
+          </small>
+        </div>
 
         {/* <!-- PREVIEW --> */}
         <button
