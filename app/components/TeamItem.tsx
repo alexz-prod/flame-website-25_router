@@ -32,7 +32,7 @@ export const TeamCardItem: FC<Props> = ({ member }) => {
       )}
       <div
         className={cx(
-          'bg-day px-content fixed top-1/2 left-1/2 flex h-full w-full max-w-4xl -translate-1/2 flex-col items-start gap-12 overflow-y-auto pt-20 pb-8 shadow-2xl transition-all md:h-9/10 md:flex-row',
+          'bg-day px-content fixed top-1/2 left-1/2 z-10 flex h-full w-full max-w-4xl -translate-1/2 flex-col items-start gap-12 overflow-y-auto pt-20 pb-8 shadow-2xl transition-all md:h-9/10 md:flex-row',
           {
             'invisible scale-98 opacity-0': !isOpen,
             'visible scale-100 opacity-100': isOpen,
