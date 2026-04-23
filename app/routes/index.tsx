@@ -1,4 +1,4 @@
-import { PageNav } from '~/components/PageNav';
+import { NotificationBanner } from '~/components/NotificationBanner';
 import ApplyNow from '~/sections/ApplyNow';
 import Facts from '~/sections/Facts';
 import Faq from '~/sections/Faq';
@@ -17,6 +17,7 @@ import YearOverview from '~/sections/YearOverview';
 export default function Home() {
   return (
     <>
+      <NotificationBanner />
       <Hero />
       <Manifest />
       <Values />
