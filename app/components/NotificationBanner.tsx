@@ -1,4 +1,5 @@
 import { useEffect, useState, type FC } from 'react';
+import { Link } from 'react-router';
 import { cx } from '~/domain/utils/cx';
 
 export const NotificationBanner: FC = () => {
@@ -22,15 +23,12 @@ export const NotificationBanner: FC = () => {
     >
       <div className="sm:content flex flex-col items-stretch justify-center font-black tracking-wider uppercase sm:flex-row sm:gap-4">
         <span className="px-content py-4 text-center sm:px-0">
-          Tag der Offenen Tür am 01.05.{' '}
+          Bewerbungsfrist bis 31.05.{' '}
         </span>
-        <a
-          href="mailto:flameacademy@gebetshaus.org?subject=Anmeldung Tag der offenen Tür&body=Hallo Flame-Team,%0D%0A%0D%0A✓ Ich komme zum Tag der offenen Tür am 01.05.2026%0D%0A✓ Ich habe noch eine Frage:"
-          className="btn"
-          type="button"
-        >
-          Jetzt anmelden
-        </a>
+
+        <Link to="#bewerben" className="btn">
+          Jetzt bewerben
+        </Link>
 
         <button
           type="button"

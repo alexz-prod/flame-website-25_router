@@ -4,8 +4,7 @@ export default function () {
       <div className="content max-w-xl">
         <h2 className="h2">Noch Fragen?</h2>
         <p className="mt-1">
-          Lerne uns sehr gerne am Tag der offenen Tür kennen (01.05.2026),
-          stelle deine Fragen per Mail oder fordere direkt die
+          Stell' deine Fragen per Mail oder fordere direkt die
           Bewerbungsunterlagen an!
         </p>
         <div className="mt-8 flex flex-col gap-2">
