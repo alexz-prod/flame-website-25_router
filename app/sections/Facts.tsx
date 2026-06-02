@@ -57,7 +57,8 @@ const FACT_DATA: FactDto[] = [
   },
   {
     title: 'Bewerbungsfrist',
-    description: 'Du kannst dich noch bis zum 31.05.2026 bei uns bewerben.',
+    description:
+      'Frist verlängert! Du kannst dich noch bis zum 24.06.2026 bei uns bewerben.',
   },
 ];
 
