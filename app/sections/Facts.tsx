@@ -58,7 +58,7 @@ const FACT_DATA: FactDto[] = [
   {
     title: 'Bewerbungsfrist',
     description:
-      'Frist verlängert! Du kannst dich noch bis zum 24.06.2026 bei uns bewerben.',
+      'Du kannst dich bis zum 31.05.2027 für das Schuljahr 27/28 bewerben.',
   },
 ];
 

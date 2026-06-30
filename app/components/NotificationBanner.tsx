@@ -23,12 +23,12 @@ export const NotificationBanner: FC = () => {
     >
       <div className="sm:content flex flex-col items-stretch justify-center font-black tracking-wider uppercase sm:flex-row sm:gap-4">
         <span className="px-content py-4 text-center sm:px-0">
-          Bewerbungsfrist verlängert bis 24.06.{' '}
+          Bewerbungsphase 2026 abgeschlossen{' '}
         </span>
 
-        <Link to="#bewerben" className="btn">
+        {/* <Link to="#bewerben" className="btn">
           Jetzt bewerben
-        </Link>
+        </Link> */}
 
         <button
           type="button"
