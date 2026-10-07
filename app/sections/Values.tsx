@@ -12,10 +12,11 @@ export default function () {
         <li className="bg-olive text-day px-content flex flex-col justify-center py-12">
           <h3 className="h3">Get real.</h3>
           <p className="mt-1">
-            Es wird Zeit, religiöse Masken abzulegen. Genug von oberflächlichem
-            Bla-Bla und so tun, als ob wir alles im Griff hätten oder das Leben
-            immer einfach wäre. Hier begegnest du Menschen, die echt sind, keine
-            Angst vor Verletzlichkeit haben und persönlich wachsen wollen.
+            Es ist Zeit, aufzuhören, so zu tun, als hätten wir alles im Griff
+            und das Leben wäre immer einfach. Hier ist Raum, echt zu sein - vor
+            Gott und voreinander. Hier musst du keine Fassade aufrechterhalten.
+            Du begegnest Menschen, die sich ehrlich zeigen, keine Angst vor
+            Verletzlichkeit haben und den Mut haben, persönlich zu wachsen.
           </p>
         </li>
         {/* <!-- go-deep img --> */}
@@ -29,10 +30,10 @@ export default function () {
         <li className="bg-day text-pray px-content flex flex-col justify-center py-12 sm:order-1 sm:aspect-square xl:order-2">
           <h3 className="h3">Go deep.</h3>
           <p className="mt-1">
-            Du wirst dieses Gefühl nicht los, dass da noch mehr sein muss? Wir
-            auch nicht. Hier hast du Zeit und Raum, wirklich tief zu gehen mit
-            Jesus. In 15h Mentoring, 72h Jüngerschaftsgruppe, 300h Teachings und
-            600 h Gebetsraum wirst du deinem Gott begegnen wie niemals zuvor.
+            Hast du genug davon, vor dir selbst und Gott wegzulaufen? Wirkliche
+            Veränderung kommt aus der Tiefe. Deshalb laden wir Dich zu einem
+            intensiven Training in Liebesfähigkeit ein - in der Beziehung zu
+            Gott, Dir selbst und Deinen Mitmenschen.
           </p>
         </li>
         {/* <!-- get-real img --> */}
@@ -53,11 +54,13 @@ export default function () {
         <li className="bg-pure text-olive px-content flex flex-col justify-center py-12 sm:order-2 xl:order-0">
           <h3 className="h3">Be dangerous.</h3>
           <p className="mt-1">
-            In dieser Welt gibt es viel Kaputtes und Dunkles. Doch du bist
-            berufen, nicht nur überforderter Zuschauer zu sein, sondern aktiv
-            Verantwortung zu übernehmen und an Jesu Seite zu kämpfen. Hört sich
-            komisch an für dich? Hier lernst du auf natürlich übernatürliche
-            Weise, diesen Weg zu gehen und mit ihm den Sieg zu erringen.
+            In einer Welt, die immer beziehungsärmer und dunkler wirkt, bist Du
+            nicht dazu berufen, überforderter Zuschauer zu sein, sondern durch
+            Dein Sein und Dein Tun ein reifer Hoffnungsträger in der
+            Gesellschaft zu werden. Wir werden Dich in Deiner
+            Beziehungsfähigkeit stärken und Dich an die Hand nehmen, mit
+            Lobpreis und Gebet inmitten der Dunkelheit einfach das Licht
+            anzumachen.
           </p>
         </li>
         {/* <!-- be-dangerous img --> */}

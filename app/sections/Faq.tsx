@@ -30,7 +30,7 @@ export default function () {
 const FAQ_DATA: AccordionItem[] = [
   {
     title: 'Welche Kosten kommen insgesamt auf mich zu?',
-    content: `Das Schulgeld für die FlameAcademy beträgt 3.290€ für das komplette Schuljahr bzw. 3.390€ bei Bewerbung ab 01.02.2026 sowie 3.490€ bei Bewerbung ab 01.04. 2026. Eine Anzahlung in Höhe von 750€ wird im Vorfeld fällig.
+    content: `Das Schulgeld für die FlameAcademy beträgt 2.990€ für das komplette Schuljahr bzw. 3.250€ bei Bewerbung ab 01.02.2027 sowie 3.490€ bei Bewerbung ab 01.04. 2027. Eine Anzahlung in Höhe von 950€ wird im Vorfeld fällig.
 Pro Person liegt die Miete in Augsburg bei etwa 500€, abhängig von Vermieter, Art der Unterkunft usw.
 Die Kosten für das Schulgeld sollen dich nicht von einer Bewerbung abhalten. Falls du Unterstützung benötigst, melde dich bitte im Laufe des Bewerbungsprozesses bei uns.
 `,
@@ -53,7 +53,7 @@ Habe Glauben, dass Gott wirklich versorgt – unsere Erfahrung ist, wenn er dich
   },
   {
     title: 'Kann ich mal in den Schulalltag reinschnuppern?',
-    content: `Ja, am besten geeignet ist dafür unser Tag der offenen Tür am 01.05.2026. Melde dich über flameacademy@gebetshaus.org an, wir freuen uns dich kennenzulernen!
+    content: `Ja, am besten geeignet ist dafür unser Tag der offenen Tür am 01.05.2027. Melde dich über flameacademy@gebetshaus.org an, wir freuen uns dich kennenzulernen!
 Auch sonst kannst du gerne ins Gebetshaus kommen und dich z.B. mal in ein Teaching setzen – melde dich auch dann bitte vorher bei uns.`,
   },
   {

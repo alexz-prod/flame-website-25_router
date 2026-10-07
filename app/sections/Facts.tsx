@@ -20,12 +20,12 @@ const FACT_DATA: FactDto[] = [
   {
     title: 'Kosten',
     description:
-      'Das Schulgeld beträgt 3.290€ bzw. 3.390€ ab 01.02.26 sowie 3.490€ ab 01.04.26.',
+      'Das Schulgeld beträgt 2.990€ bzw. 3.250€ ab 01.02.27 sowie 3.490€ ab 01.04.27.',
   },
   {
     title: 'Wann',
     description:
-      'Die nächste FlameAcademy findet von Oktober 2026 bis Juli 2027 statt.',
+      'Die nächste FlameAcademy findet von Oktober 2027 bis Juli 2028 statt.',
   },
   {
     title: 'Ferien',

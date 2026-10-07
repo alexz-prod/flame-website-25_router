@@ -32,11 +32,12 @@ export default function () {
         />
 
         <div className="relative">
-          <h1 className="h2 text-pure text-6xl">
-            <span className="font-normal">Join the</span>
+          <h1 className="h2 text-pure text-4xl sm:text-6xl">
+            <span className="font-normal">get real</span>
             <br />
-            Special <br />
-            Forces.
+            <span className="font-normal">go deep</span>
+            <br />
+            <span>be danger&shy;ous</span>
           </h1>
 
           <Link to="#bewerben" className="btn mt-3">
