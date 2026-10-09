@@ -33,11 +33,11 @@ export default function () {
 
         <div className="relative">
           <h1 className="h2 text-pure text-4xl sm:text-6xl">
-            <span className="font-normal">get real</span>
+            <span className="font-normal">get real.</span>
             <br />
-            <span className="font-normal">go deep</span>
+            <span className="font-normal">go deep.</span>
             <br />
-            <span>be danger&shy;ous</span>
+            <span>be danger&shy;ous.</span>
           </h1>
 
           <Link to="#bewerben" className="btn mt-3">
@@ -45,13 +45,13 @@ export default function () {
           </Link>
         </div>
 
-        <div className="text-pure absolute bottom-5 left-6 text-xs font-semibold tracking-wide uppercase">
+        {/* <div className="text-pure absolute bottom-5 left-6 text-xs font-semibold tracking-wide uppercase">
           Get real.
           <br />
           Go deep.
           <br />
           Be dangerous.
-        </div>
+        </div> */}
 
         <a
           className="absolute right-6 bottom-6"
