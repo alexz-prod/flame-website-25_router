@@ -1,5 +1,5 @@
 import { TeamCardItem } from '~/components/TeamItem';
-import { INDEX_IMG_DATA, TEAM_IMG_DATA } from '~/data/images';
+import { TEAM_IMG_DATA } from '~/data/images';
 import type { ImgDto } from '~/types/ImgDto';
 
 export default function () {
@@ -47,7 +47,7 @@ Außerdem ist Silas ein Killer am Badmintonschläger und steht auf extrem „mä
 
 Gemeinsam mit Conny leitet er die FlameAcademy und ist als Sprecher und Mentor unterwegs.`,
   },
-  {
+  /*{
     name: 'Tobi Braun',
     img: TEAM_IMG_DATA.tobiBraun,
     position: 'Teachings & Mentoring',
@@ -58,7 +58,7 @@ Tobi ist ein humorvoller und beziehungsorientierter Ermutiger. Er liebt gesellig
 Tobi ist außerdem ein sehr guter Gitarrist, spielt und schaut gerne Fußball und liebt lange, gemütliche Abende mit Freunden. Auf langen Autofahrten läuft bei ihm ansonsten auch schon mal eine Folge der Drei ???. 
 
 In der FlameAcademy ist er gemeinsam mit Rebecca für den Gebetsleiter-Track verantwortlich und fungiert als Mentor.`,
-  },
+  },*/
   {
     name: 'Rebecca Diehl',
     img: TEAM_IMG_DATA.rebeccaDiehl,
