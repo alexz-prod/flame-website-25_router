@@ -1,3 +1,5 @@
+import type { ReactNode } from 'react';
+
 export default function () {
   return (
     <section id="facts" className="py-section text-day bg-incense-900">
@@ -19,8 +21,15 @@ export default function () {
 const FACT_DATA: FactDto[] = [
   {
     title: 'Kosten',
-    description:
-      'Das Schulgeld beträgt 2.990€ bzw. 3.250€ ab 01.02.27 sowie 3.490€ ab 01.04.27.',
+    description: (
+      <>
+        Das Schulgeld beträgt <s>3.490€</s>. Ab dem Schuljahr 2027/28 können wir
+        einen günstigeren Preis anbieten!
+        <br />
+        Aktuelles Schulgeld 1.790€, ab 01.02.27 1.890€ sowie 1.990€ bei einer
+        Bewerbung ab 01.04.27.
+      </>
+    ),
   },
   {
     title: 'Wann',
@@ -64,5 +73,5 @@ const FACT_DATA: FactDto[] = [
 
 export type FactDto = {
   title: string;
-  description: string;
+  description: ReactNode;
 };
